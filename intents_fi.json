@@ -1,0 +1,63 @@
+{"intents": [
+    {"tag": "tervehdykset",
+    "patterns": ["terve", "moi", "hei", "hyvää päivää", "hyvää iltaa", "huomenta", "hyvää yötä", "öitä"],
+    "responses": [ "Terve!", "Moi!", "Kuinka voin auttaa?" ]
+    },
+    {"tag": "heipat",
+    "patterns": ["nähdään", "nähdään myöhemmin", "hei hei", "heippa", "hyvää päivänjatkoa!","näkemiin"],
+    "responses": [ "Ikävää että lähdet :(", "Jutellaan myöhemmin", "Moi moi!"]
+    },
+    {"tag": "ika",
+    "patterns": ["kuinka vanha olet", "minkä ikäinen olet", "mikä on ikäsi", "ikä", "milloin sinut luotiin"],
+    "responses": [ "Kiitos kysymästä! Sain alkuni 20.8.2023." ]
+    },
+    {"tag": "nimi",
+    "patterns": ["mikä on sinun nimesi", "mikä on nimesi", "millä nimellä sinua pitäisi kutsua", "kuka olet", "voitko kertoa nimesi"],
+    "responses": [ "Nimeni on Urmas.", "Olen Urmas", "Voit sanoa minua Urmaaksi." ]
+    },
+    {"tag": "lukujarjestys",
+    "patterns": ["moneltako koulu alkaa", "milloin koulu alkaa", "milloin koulu päättyy", "moneltako koulu loppuu", "miltä näyttää tämän viikon lukujärjestys"],
+    "responses": [ "Maanantaina koulu alkaa klo 10 ja päättyy klo 15, tiistaina koulu alkaa klo 9 ja päättyy klo 16, keskiviikkona koulu alkaa klo 9 ja päättyy klo 16, torstaina koulu alkaa klo 9 ja päättyy klo 16, perjantaina koulu alkaa klo 8 ja päättyy klo 11." ]
+    },
+    {"tag": "opinnot",
+    "patterns": ["mitä kursseja opintoihin kuuluu", "mitä tähän jaksoon kuuluu", "mitä tässä jaksossa opiskellaan", "mitä kursseja lukujärjestyksestä löytyy"],
+    "responses": [ "Opinnot tässä jaksossa sisältävät seuraavat kurssit: Digitaalisen median mallinnus ja tulostus, Työkyvyn ja hyvinvoinnin ylläpitäminen, Ohjelmointi, Yrittäjyys ja yrittäjämäinen toiminta, Viestintä ja vuorovaikutus äidinkielellä " ]
+    },
+    {"tag": "ruoka",
+    "patterns": ["mitä on ruuaksi", "mikä on tämän päivän kouluruoka", "mitä ruokaa on tänään", "mitä ruokalassa on tänään tarjolla"],
+    "responses": [ "Voit saada tarkat tiedot viikon ruokalistasta Jamix Menusta, Yammerista ja oppilaitoksen ilmoitustauluilta tai infonäytöiltä." ]
+    },
+    {"tag": "kuulumiset",
+    "patterns": ["mitä kuuluu", "miten menee", "miten voit", "mitäs sä", "kerro kuulumiset"],
+    "responses": [ "Minulle kuuluu hyvää kiitos.", "Hyvin menee.", "Minulla menee hyvin."]
+    },
+    {"tag": "jeejee",
+    "patterns": ["näin se", "on se", "jee jee"],
+    "responses": [ "Näin se vaan rätkii.", "Näin se vaan menee.", "Jee jee karu äijjä!", "Jee jee gepardii!"]
+    },
+    {"tag": "pelit",
+    "patterns": ["pelaa numeronarvauspeliä", "pelaa", "pelataanko"],
+    "responses": ["Toki, aloitetaan numeronarvauspeli :)."]
+    },
+    {"tag": "kiitokset",
+    "patterns": ["kiitän", "kiitos", "kiitoksia"],
+    "responses": ["Ole hyvä!", "Eipä kestä.", "Ilo olla avuksi :)."]
+    }, 
+    {"tag": "sää",
+    "patterns": ["mikä on sää", "millainen on sää", "sää"],
+    "responses": ["Sää vaihtelee, mutta voin kertoa sinulle nykyisen sään jostain kaupungista."]
+    },
+    {"tag": "uutiset",
+    "patterns": ["uutiset", "saisinko viimeisimmät uutiset"],
+    "responses": ["Tässä viimeisimpiä uutsia Suomesta :)"]
+    },
+    {"tag": "kysymys laskemisesta",
+    "patterns": ["voitko laskea laskutoimituksia?", "millaisiin laskutoimituksiin pystyt", "osaatko laskea"],
+    "responses": ["Voin laskea erilaisia laskutoimituksia, kuten yhteenlaskuja, vähennyslaskuja, kertolaskuja ja jakolaskuja. Voit kysyä esimerkiksi\"Laske 5 kertaa 2 \" ja \"10 jaettuna 2\" tai muodossa \"5*2\", \"10/2\" etc. Kokeile rohkeasti!"]
+    },
+    {"tag": "tiedonhaku",
+    "patterns": ["kerro tietoa", "kerro tietoa aiheesta", "kerro tietoa henkilösta", "kerro tietoa paikasta", "kerro tietoa asiasta"],
+    "responses": ["Tietoa ei löydy :("]
+    }
+
+]}
